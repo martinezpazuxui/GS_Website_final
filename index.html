@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GS Hacemos Radio</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+
+    <!-- M E N Ú  E N C A B E Z A D O -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="img/icons/gs-icon.png" alt="Logo de la empresa Grupo Shopping"></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#nosotros" onclick="seleccionar()">Nosotros</a></li>
+                    <li><a href="#oyentes" onclick="seleccionar()">Oyentes</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+    <!-- S E C C I Ó N  I N I C I O -->
+    <section id="inicio" class="inicio">
+        <div class="inicio-contenedor">
+            <div class="inicio-text">
+                <h1>GRUPO <span>SHOPPING</span></h1>
+                <h2>Hacemos Radio</h2>
+                <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing.</span> Accusantium animi molestias maxime
+                    nesciunt
+                    illo inventore veritatis ipsum autem sapiente quod, rerum provident eveniet voluptatum magnam nemo.
+                </p>
+                <div class="buttons">
+                    <a href="#" class="btn-b">Programas</a>
+                    <a href="#" class="btn-a">Ver Tarifas</a>
+                </div>
+
+                <div class="radios-icons">
+                    <img src="./img/icons/00_sh_icon.png">
+                    <img src="./img/icons/00_ms_icon.png">
+                    <img src="./img/icons/00_pj_icon.png">
+                    <img src="./img/icons/00_ls_icon.png">
+                </div>
+            </div>
+
+            <div class="inicio-img">
+                <img src="img/img-inicio.png" alt="img-inicio">
+            </div>
+        </div>
+    </section>
+
+    <!-- S E C C I Ó N  S O B R E  N O S O T R O S -->
+    <section id="nosotros">
+        <div class="nosotros">
+            <div class="titulo">
+                <span>NOSOTROS</span>
+                <h2>Ofrecemos solo lo mejor</h2>
+            </div>
+
+            <div class="nosotros-contenedor">
+                <div class="nosotros-box">
+                    <img src="img/n-1.png" alt="">
+                    <h3>Cantidad de oyentes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sunt fugit placeat quam at,
+                        dolore assumenda.</p>
+                </div>
+
+                <div class="nosotros-box">
+                    <img src="img/n-2.png" alt="">
+                    <h3>Calidad de oyentes</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sunt fugit placeat quam at,
+                        dolore assumenda.</p>
+                </div>
+
+                <div class="nosotros-box">
+                    <img src="img/n-3.png" alt="">
+                    <h3>30 años de experiencia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sunt fugit placeat quam at,
+                        dolore assumenda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- S E C C I Ó N  R A D I O S -->
+    <section id="radios">
+        <div class="radios">
+            <div class="titulo">
+                <span>NUESTRAS RADIOS</span>
+                <h2>Tenemos una opción para vos</h2>
+            </div>
+
+            <div class="radios-contenedor">
+                <div class="radios-box">
+                    <img src="img/icons/00_sh_icon.png" alt="">
+                    <h3>SHOPPING<br>CLASSICS 96.1</h3>
+                    <a href="#" class="btn-b">Conocé más</a>
+                </div>
+
+                <div class="radios-box">
+                    <img src="img/icons/00_ms_icon.png" alt="">
+                    <h3>MANSA<br>103.1</h3>
+                    <a href="#" class="btn-b">Conocé más</a>
+                </div>
+
+                <div class="radios-box">
+                    <img src="img/icons/00_pj_icon.png" alt="">
+                    <h3>POBRE JOHNNY<br>88.9</h3>
+                    <a href="#" class="btn-b">Conocé más</a>
+                </div>
+
+                <div class="radios-box">
+                    <img src="img/icons/00_ls_icon.png" alt="">
+                    <h3>LOCA SUELTA<br>94.7</h3>
+                    <a href="#" class="btn-b">Conocé más</a>
+                </div>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit sunt fugit placeat quam at, ipsum dolor
+                sit amet consectetur, adipisicing elit dolore assumenda
+                libero. Adipisicing elit. Impedit sunt fugit placeat quam lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Impedit sunt fugit placeat quam at, dolore assumenda
+                libero.</p>
+        </div>
+    </section>
+
+    <!-- S E C C I Ó N  O Y E N T E S -->
+    <section id="oyentes" class="oyentes">
+        <div class="oyentes-contenedor">
+            <div class="oyentes-text">
+                <h1><span>CALIDAD</span> <br>DE OYENTES</h1>
+                <h2>NSE: Medio-Alto</h2>
+                <p><span>Lorem ipsum, dolor sit amet consectetur adipisicing.</span> Accusantium animi molestias maxime
+                    nesciunt
+                    illo inventore veritatis ipsum autem sapiente quod.</p>
+                <div class="buttons">
+                    <a href="#" class="btn-a">Ver Tarifas</a>
+                    <a href="#" class="btn-c">Ver Métricas</a>
+                </div>
+            </div>
+
+            <div class="oyentes-img">
+                <img src="img/img-inicio-b.png" alt="img-inicio">
+            </div>
+        </div>
+    </section>
+
+    <!-- S E C C I Ó N  M E N S A J E -->
+    <section class="cta">
+        <h2>Mensaje persuasivo <br>para clientes</h2>
+        <a href="#" class="btn-a">¡Hablemos!</a>
+    </section>
+
+
+    <!-- S E C C I Ó N  F O O T E R -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
